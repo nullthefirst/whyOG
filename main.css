@@ -1,5 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Poor+Story');
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
 
 /* Main */
 body {
@@ -11,6 +12,10 @@ body {
 
 p {
   font-family: 'Poor Story', cursive;
+}
+
+h2, h4 {
+  font-family: 'Boogaloo', cursive;
 }
 
 /* Snowflak Effect */
@@ -39,7 +44,8 @@ p {
 #card {
   background-color: #c0c0c0;
   float: center;
-  margin: 3em;
+  padding: 0;
+  margin: 0;
 }
 
 #main {
