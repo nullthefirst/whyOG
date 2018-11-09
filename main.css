@@ -63,3 +63,20 @@ h2, h4 {
 a {
   color: #fff;
 }
+
+/* Mobile View */
+@media all and (max-width: 1200px) {
+  #card {
+    margin-left: 6em;
+    margin-right: 6em;
+    padding: 1em 4em 2em 4em;
+  }
+}
+
+@media all and (max-width: 600px) {
+  #card {
+    margin-left: 4em;
+    margin-right: 4em;
+    padding: 0.5em 2em 1em 2em;
+  }
+}
