@@ -1,8 +1,16 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+
+/* Main */
 body {
   background-color: #1D1D1D;
   padding: 30px;
   margin: 0px;
   text-align: center;
+}
+
+p {
+  font-family: 'Poor Story', cursive;
 }
 
 /* Snowflak Effect */
@@ -30,6 +38,7 @@ body {
 /* Poem */
 #card {
   background-color: #c0c0c0;
+  float: center;
   margin: 3em;
 }
 
@@ -43,4 +52,8 @@ body {
 
 #final {
   padding: 0 0 1em 0;
+}
+
+a {
+  color: #fff;
 }
