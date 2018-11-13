@@ -18,7 +18,7 @@ h2, h4 {
   font-family: 'Boogaloo', cursive;
 }
 
-/* Snowflak Effect */
+/* Snowflake Effect */
 #snowflakeContainer {
   position: absolute;
   left: 0px;
@@ -67,16 +67,14 @@ a {
 /* Mobile View */
 @media all and (max-width: 1200px) {
   #card {
-    margin-left: 3em;
-    margin-right: 3em;
+    margin: 0 3em 0 3em;
     padding: 0.5em 2em 1em 2em;
   }
 }
 
 @media all and (max-width: 600px) {
   #card {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: 0 2em 0 2em;
     padding: 0.2em 1em 0.5em 1em;
   }
 }
